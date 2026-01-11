@@ -44,7 +44,7 @@ Copier le code
 
 1. **Clone the repository**
 
-```bash
+``bash
 git clone https://github.com/Lamouchi-Bayrem/document-qa.git
 cd document-qa
 Create & activate virtual environment
@@ -56,7 +56,7 @@ source .venv/bin/activate   # macOS / Linux
 .venv\Scripts\activate      # Windows
 Install dependencies
 
-bash
+``bash
 Copier le code
 pip install -r requirements.txt
 ▶️ Running the App
