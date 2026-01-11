@@ -59,13 +59,14 @@ Install dependencies
 ``bash
 Copier le code
 pip install -r requirements.txt
-▶️ Running the App
+
+##▶️ Running the App
 bash
 Copier le code
 streamlit run streamlit_app.py
 Open the browser window to interact with the document QA interface.
 
-📌 Usage Guide
+##📌 Usage Guide
 Upload your document (PDF or text) using the Streamlit UI
 
 Wait for the content to be parsed
@@ -76,7 +77,7 @@ Get answers from the LLM using the document context
 
 Improve accuracy by providing high-quality documents
 
-🧠 How It Works
+##🧠 How It Works
 Document Upload – User uploads a PDF or text file
 
 Text Extraction – Document is converted into searchable text
@@ -85,7 +86,7 @@ Embedding / Retrieval – Text is optionally embedded for semantic search
 
 LLM Query – User questions are answered using the context of the document
 
-⚙️ Customization & Extensions
+##⚙️ Customization & Extensions
 Add vector database support (FAISS, Milvus, etc.) for efficient retrieval
 
 Extend to support additional formats (DOCX, PPTX, images with OCR)
@@ -94,7 +95,7 @@ Use alternative LLMs or fine-tuned embeddings
 
 Deploy via Docker, Heroku, or cloud platforms
 
-🤝 Contributing
+##🤝 Contributing
 Contributions are welcome!
 
 Fork this repository
