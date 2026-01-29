@@ -31,13 +31,13 @@ A **Document Question Answering** web application built with **Streamlit** that 
 ## 📁 Project Structure
 
 document-qa/
-├── .devcontainer/ # Dev container config 
-├── .github/ # GitHub workflows (CI/CD)
-├── requirements.txt # Python dependencies
-├── streamlit_app.py # Main app entry point
-├── README.md # Project documentation
-├── LICENSE # Apache-2.0 License
-├── uploads/ # (Optional) folder to store uploaded docs
+├── .devcontainer/ * Dev container config 
+├── .github/ * GitHub workflows (CI/CD)
+├── requirements.txt * Python dependencies
+├── streamlit_app.py * Main app entry point
+├── README.md * Project documentation
+├── LICENSE * Apache-2.0 License
+├── uploads/ * (Optional) folder to store uploaded docs
 
 yaml
 Copier le code
@@ -51,16 +51,17 @@ Copier le code
 ``bash
 git clone https://github.com/Lamouchi-Bayrem/document-qa.git
 cd document-qa
-
+``
 Create & activate virtual environment
 
 bash
 Copier le code
+``
 python3 -m venv .venv
 source .venv/bin/activate   # macOS / Linux
 .venv\Scripts\activate      # Windows
 Install dependencies
-
+``
 ``bash
 Copier le code
 pip install -r requirements.txt
