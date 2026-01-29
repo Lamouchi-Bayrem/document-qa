@@ -17,9 +17,13 @@ A **Document Question Answering** web application built with **Streamlit** that 
 ## 📦 Tech Stack
 
 - **Frontend / UI:** Streamlit  
+
 - **Backend:** Python  
+
 - **Language Model:** OpenAI GPT-3.5 or similar  
+
 - **Document Parsing:** Python libraries (PDF/Text)  
+
 - **Vector Search (optional):** FAISS or other retrievers  
 
 ---
@@ -27,7 +31,7 @@ A **Document Question Answering** web application built with **Streamlit** that 
 ## 📁 Project Structure
 
 document-qa/
-├── .devcontainer/ # Dev container config (optional)
+├── .devcontainer/ # Dev container config 
 ├── .github/ # GitHub workflows (CI/CD)
 ├── requirements.txt # Python dependencies
 ├── streamlit_app.py # Main app entry point
@@ -47,6 +51,7 @@ Copier le code
 ``bash
 git clone https://github.com/Lamouchi-Bayrem/document-qa.git
 cd document-qa
+
 Create & activate virtual environment
 
 bash
